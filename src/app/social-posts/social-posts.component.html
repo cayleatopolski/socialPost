@@ -1,0 +1,10 @@
+<section id="head">
+  <h1>My Thoughts</h1>
+  <button *ngIf="!showForm" (click)="toggleForm()">New Thought</button>
+</section>
+<app-post
+  *ngFor="let post of posts; index as i"
+  [post]="post"
+  [postIndex]="i"
+></app-post>
+<app-post-form *ngIf="showForm" (onAdd)="onAddHandler($event)"></app-post-form>

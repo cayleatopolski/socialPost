@@ -1,0 +1,19 @@
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: #b1ddea;
+  width: 50%;
+}
+
+p {
+  font-family: "Dosis", sans-serif;
+}
+
+#title {
+  height: 50px;
+}
+
+#thought {
+  height: 100px;
+}

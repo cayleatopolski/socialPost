@@ -1,0 +1,21 @@
+div {
+  border: solid;
+  border-color: black;
+  border-radius: 5px;
+  background: #fff;
+  position: relative;
+}
+
+#delete {
+  position: absolute;
+  right: 0;
+  top: 50%;
+}
+
+#title {
+  font-size: 24px;
+}
+
+p {
+  font-family: "Dosis", sans-serif;
+}

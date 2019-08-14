@@ -1,0 +1,13 @@
+h1 {
+  font-family: "Homemade Apple", cursive;
+  color: rgb(3, 169, 244);
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  width: 100%;
+  border-block-color: black;
+  border-radius: 5px;
+  height: 50px;
+}

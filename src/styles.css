@@ -1,1 +1,8 @@
-/* You can add global styles to this file, and also import other style files */
+html,
+body {
+  background: #f3f1f7;
+}
+
+p {
+  font-family: "Dosis", sans-serif;
+}
